@@ -1,0 +1,8 @@
+{
+  "extends": "@kplib/typescript-config/react-library.json",
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "build"]
+}

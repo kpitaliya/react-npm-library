@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Local env files
+.env
+*.local
+.cache
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Build Outputs
+.next/
+out/
+build
+dist
+dist-ssr
+
+
+# Debug
+*.log
+
+# Misc
+.DS_Store
+*.pem
+
+server/dist
+public/dist
+.changeset

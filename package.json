@@ -1,0 +1,27 @@
+{
+  "name": "test-kplib",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "dotenv -- turbo run dev --no-cache --parallel --continue",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "publish-packages": "turbo run build lint && changeset version && changeset publish"
+  },
+  "devDependencies": {
+    "@kplib/eslint-config": "workspace:*",
+    "@kplib/typescript-config": "workspace:*",
+    "prettier": "^3.1.1",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1",
+    "dotenv-cli": "^7.3.0"
+  }
+}

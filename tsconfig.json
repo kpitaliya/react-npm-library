@@ -1,0 +1,3 @@
+{
+  "extends": "@kplib/typescript-config/base.json"
+}
