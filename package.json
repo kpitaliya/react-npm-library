@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "ci:version": "pnpm -r --filter=*/* version patch",
+    "ci:version": "pnpm -r version patch",
     "ci:publish": "pnpm publish -r --no-git-checks",
     "publish-packages": "turbo run build lint && changeset version && changeset publish"
   },
