@@ -5,6 +5,7 @@
 ### Patch Changes
 
 - updated version
+- button component changes
 
 ## 0.0.1
 
