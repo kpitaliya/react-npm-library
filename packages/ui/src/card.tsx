@@ -18,6 +18,7 @@ export function Card({
     >
       <h2>
         {title} <span>-&gt;</span>
+        <p>Card</p>
       </h2>
       <p>{children}</p>
     </a>
