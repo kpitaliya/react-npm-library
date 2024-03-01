@@ -13,7 +13,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "version-packages": "changeset version",
-    "ci:publish": "pnpm publish -r --no-git-checks",
+    "ci:publish": "pnpm publish -r --filter=docs^... --filter=webs^... --no-git-checks",
     "publish-packages": "turbo run build lint && changeset version && changeset publish"
   },
   "devDependencies": {
