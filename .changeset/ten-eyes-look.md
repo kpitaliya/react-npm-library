@@ -4,4 +4,4 @@
 "@kplib/ui": patch
 ---
 
-major bump version
+minor version
