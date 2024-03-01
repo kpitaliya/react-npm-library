@@ -33,6 +33,7 @@ dist-ssr
 # Misc
 .DS_Store
 *.pem
+.pnpm-store
 
 server/dist
 public/dist
