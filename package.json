@@ -1,6 +1,10 @@
 {
   "name": "test-kplib",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpitaliya/react-npm-library"
+  },
   "scripts": {
     "build": "turbo run build",
     "clean": "turbo run clean",
