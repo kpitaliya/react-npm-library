@@ -1,5 +1,11 @@
 # @kplib/ui
 
+## 1.0.2
+
+### Patch Changes
+
+minor version
+
 ## 1.0.1
 
 ### Patch Changes
