@@ -4,4 +4,4 @@
 "@kplib/ui": patch
 ---
 
-minor version
+Feature/workflow setup
