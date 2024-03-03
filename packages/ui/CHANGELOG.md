@@ -1,5 +1,11 @@
 # @kplib/ui
 
+## 2.2.0
+
+### Minor Changes
+
+- d65760f: minor bump
+
 ## 2.1.0
 
 ### Minor Changes
