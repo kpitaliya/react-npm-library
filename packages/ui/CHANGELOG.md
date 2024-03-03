@@ -1,5 +1,11 @@
 # @kplib/ui
 
+## 2.1.0
+
+### Minor Changes
+
+- 35fcb27: updated token
+
 ## 2.0.0
 
 ### Major Changes
