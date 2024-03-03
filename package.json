@@ -12,22 +12,24 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "release": "pnpm build && changeset publish",
     "version-packages": "changeset version",
     "ci:publish": "pnpm publish -r --filter=docs^... --filter=webs^... --no-git-checks",
     "publish-packages": "turbo run build lint && changeset version && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@kplib/eslint-config": "workspace:*",
     "@kplib/typescript-config": "workspace:*",
     "prettier": "^3.1.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.3.3"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1",
     "dotenv-cli": "^7.3.0"
   }
 }
