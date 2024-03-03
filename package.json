@@ -1,5 +1,5 @@
 {
-  "name": "kplib",
+  "name": "kpitaliya",
   "private": true,
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "@kplib/eslint-config": "workspace:*",
-    "@kplib/typescript-config": "workspace:*",
+    "@kpitaliya/eslint-config": "workspace:*",
+    "@kpitaliya/typescript-config": "workspace:*",
     "prettier": "^3.1.1",
     "turbo": "latest",
     "typescript": "^5.3.3"

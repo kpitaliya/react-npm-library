@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Card, Code, Button } from "@kplib/ui";
+import { Card, Code, Button } from "@kpitaliya/ui";
 import styles from "./page.module.css";
 
 function Gradient({
