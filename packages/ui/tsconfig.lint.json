@@ -1,5 +1,5 @@
 {
-  "extends": "@kplib/typescript-config/react-library.json",
+  "extends": "@kpitaliya/typescript-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist"
   },

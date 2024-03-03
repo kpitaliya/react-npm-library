@@ -1,5 +1,5 @@
 {
-  "name": "@kplib/eslint-config",
+  "name": "@kpitaliya/eslint-config",
   "version": "2.1.0",
   "files": [
     "library.js",

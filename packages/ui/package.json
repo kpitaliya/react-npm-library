@@ -1,5 +1,5 @@
 {
-  "name": "@kplib/ui",
+  "name": "@kpitaliya/ui",
   "version": "2.1.0",
   "sideEffects": false,
   "main": "./dist/index.js",
@@ -16,8 +16,8 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@kplib/eslint-config": "workspace:*",
-    "@kplib/typescript-config": "workspace:*",
+    "@kpitaliya/eslint-config": "workspace:*",
+    "@kpitaliya/typescript-config": "workspace:*",
     "@turbo/gen": "^1.11.3",
     "@types/eslint": "^8.56.1",
     "@types/node": "^20.10.6",
