@@ -1,5 +1,11 @@
 # @kplib/ui
 
+## 1.1.0
+
+### Minor Changes
+
+- ee51b8d: added workflows
+
 ## 1.0.3
 
 ### Patch Changes
