@@ -1,5 +1,11 @@
 # @kplib/eslint-config
 
+## 2.3.0
+
+### Minor Changes
+
+- 16ecd68: packages write permission
+
 ## 2.2.0
 
 ### Minor Changes
