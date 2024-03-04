@@ -1,5 +1,11 @@
 # @kplib/ui
 
+## 2.4.0
+
+### Minor Changes
+
+- 31526cc: removed npmrc
+
 ## 2.3.0
 
 ### Minor Changes
